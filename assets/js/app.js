@@ -25,11 +25,11 @@ for (let i = 0; i < closebtn.length; i++) {
     })
 }
 
-for (let i = 0; i < modalbg.length; i++) {
-    modalbg[i].addEventListener('click', () => {
-        modalbg[i].classList.remove('active')
-    })
-}
+// for (let i = 0; i < modalbg.length; i++) {
+//     modalbg[i].addEventListener('click', () => {
+//         modalbg[i].classList.remove('active')
+//     })
+// }
 
 
 window.addEventListener('scroll', () => {
