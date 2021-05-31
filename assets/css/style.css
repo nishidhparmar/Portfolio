@@ -822,7 +822,7 @@ form button:hover {
   .form {
     display: none;
   }
-  .skill-boxmain {
+  /* .skill-boxmain {
     height: 60px;
     background-color: var(--light-color);
     width: 75px;
@@ -903,5 +903,5 @@ form button:hover {
   .certi .java img {
     width: 70%;
     background-color: var(--white-color);
-}
+} */
 }
