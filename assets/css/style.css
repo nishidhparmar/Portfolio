@@ -861,7 +861,7 @@ form button:hover {
     padding: 100px 30px 20px 30px;
   }
   .certi {
-    height: 130px;
+    height: 145px;
     width: 130px;
     background-color: var(--white-color);
     display: flex;
@@ -900,4 +900,8 @@ form button:hover {
     padding: 20px 0px;
     line-height: 25px;
   }
+  .certi .java img {
+    width: 70%;
+    background-color: var(--white-color);
+}
 }
