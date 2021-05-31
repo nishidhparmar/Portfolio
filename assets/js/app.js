@@ -25,12 +25,12 @@ for (let i = 0; i < closebtn.length; i++) {
     })
 }
 
-// for (let i = 0; i < modalbg.length; i++) {
-//     modalbg[i].addEventListener('click', () => {
-//         modalbg[i].classList.remove('active')
-//     })
-// }
-
+document.addEventListener('click', (e) => {
+    if (e.target.id != 'navlist' && e.target.id != "menu") {
+        menu.classList.remove('active')
+        navlist.classList.remove('active')
+    }
+})
 
 window.addEventListener('scroll', () => {
     navbar.classList.toggle('sticky', window.scrollY > 0)
