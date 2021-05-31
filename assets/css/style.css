@@ -860,4 +860,44 @@ form button:hover {
     width: 100%;
     padding: 100px 30px 20px 30px;
   }
+  .certi {
+    height: 130px;
+    width: 130px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px !important;
+    transition: all 0.3s ease 0s !important;
+  }
+  .certi .certi-title {
+    padding: 10px;
+    text-align: center;
+    color: var(--dark-color);
+    font-size: 10px;
+  }
+  .heading {
+    font-size: var(--heading-size);
+    text-align: center;
+    color: var(--light-color);
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .content {
+    text-align: center;
+    margin-top: 20px;
+    font-size: var(--content-size);
+    line-height: 25px;
+  }
+  .experience .card .card-title {
+    color: var(--light-color);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    line-height: 25px;
+  }
 }
