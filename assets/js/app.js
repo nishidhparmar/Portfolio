@@ -37,5 +37,5 @@ window.addEventListener('scroll', () => {
 })
 
 window.addEventListener('load', () => {
-    loader.style.display = "none"
+    // loader.style.display = "none"
 })

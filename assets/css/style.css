@@ -66,8 +66,8 @@ body {
   border-radius: 50%;
 }
 .loader-img {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   background-image: url("../img/favicon.png");
   background-position: center;
   background-size: cover;
