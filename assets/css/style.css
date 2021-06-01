@@ -188,7 +188,7 @@ header .menu {
 
 /* section */
 section {
-  padding: 100px 30px 20px 30px;
+  padding: 100px 20px 20px 20px;
 }
 /* heading */
 .heading {
@@ -822,86 +822,59 @@ form button:hover {
   .form {
     display: none;
   }
-  /* .skill-boxmain {
-    height: 60px;
-    background-color: var(--light-color);
-    width: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    margin: 10px;
-    transition: 0.5s !important;
-  }
-  .skill .skill-box {
-    height: 70px;
-    background-color: var(--white-color);
-    width: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-    margin: 10px;
-  }
-  .skill .skill-box .skill-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 6px;
-  }
-  .skill-boxmain:hover {
-    width: 80px;
-    background-color: var(--white-color);
-  }
-  .skill {
-    background-color: var(--dark-color);
-    height: auto;
-    width: 100%;
-    padding: 100px 30px 20px 30px;
-  }
-  .certi {
-    height: 145px;
-    width: 130px;
-    background-color: var(--white-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px 0px !important;
-    transition: all 0.3s ease 0s !important;
-  }
-  .certi .certi-title {
-    padding: 10px;
-    text-align: center;
-    color: var(--dark-color);
-    font-size: 10px;
-  }
   .heading {
     font-size: var(--heading-size);
-    text-align: center;
-    color: var(--light-color);
-    position: relative;
-    margin-bottom: 20px;
   }
   .content {
-    text-align: center;
-    margin-top: 20px;
     font-size: var(--content-size);
-    line-height: 25px;
   }
   .experience .card .card-title {
-    color: var(--light-color);
     font-size: 18px;
-    text-transform: uppercase;
-    padding: 20px 0px;
-    line-height: 25px;
+  }
+  .skill-boxmain {
+    height: 90px;
+    background-color: transparent;
+    width: 100px;
+    margin: 20px;
+  }
+  .skill .skill-box {
+    height: 90px;
+    background-color: var(--white-color);
+    width: 100px;
+    margin: 0px;
+  }
+  .skill .skill-box .skill-logo {
+    font-size: 9px;
+  }
+  .skill .skill-box:hover {
+    background-color: var(--light-color);
+    color: var(--white-color);
+  }
+  .skill-boxmain:hover {
+    width: 110px;
+    background-color: var(--white-color);
+  }
+  .certi {
+    height: 150px;
+    width: 140px;
+  }
+  .certi .certi-title {
+    font-size: 12px;
   }
   .certi .java img {
-    width: 70%;
+    width: 65%;
     background-color: var(--white-color);
-} */
+  }
+  .pro-title {
+    font-size: var(--content-size);
+  }
+  .modal-content .heading {
+    font-size: 20px;
+  }
+  .pro-content {
+    font-size: 14px;
+  }
+  .pro-about {
+    font-size: 13px;
+  }
 }
